@@ -66,4 +66,6 @@ public class Mobile extends Generic {
 		Iterator<String>it=win.iterator(); 
 		String parentId=it.next();
 		String childId=it.next();
+		driver.switchTo().window(childId);
+		driver.findElement(By.id("inputFirstName")).sendKeys("Madura");//First Name
 		
