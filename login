@@ -38,5 +38,6 @@ public class Mobile extends Generic {
 			
 			@Test(priority = 2, dataProvider="getdata")
 			public void login(String email, String pwd)
+			driver.findElement(By.xpath("//button[.='SIGN IN']")).click();
 			
 		
