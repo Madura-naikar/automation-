@@ -44,5 +44,6 @@ public class Mobile extends Generic {
 			driver.findElement(By.xpath("//a[.='Log In']")).click();
 			
 			@DataProvider
+			 public Object[][] getdata()
 			
 		
