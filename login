@@ -42,4 +42,7 @@ public class Mobile extends Generic {
 			driver.findElement(By.id("username")).sendKeys(email);
 			driver.findElement(By.id("password")).sendKeys(pwd);
 			driver.findElement(By.xpath("//a[.='Log In']")).click();
+			
+			@DataProvider
+			
 		
