@@ -68,4 +68,6 @@ public class Mobile extends Generic {
 		String childId=it.next();
 		driver.switchTo().window(childId);
 		driver.findElement(By.id("inputFirstName")).sendKeys("Madura");//First Name
+		driver.findElement(By.xpath("//label[.='First Name']/following-sibling::input[1]")).sendKeys("Naikar");//Last Name
+		driver.findElement(By.id("inputEmail")).sendKeys("maduranaikar86@gmail.com");//Email
 		
