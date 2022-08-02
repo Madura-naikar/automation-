@@ -65,4 +65,5 @@ public class Mobile extends Generic {
 	Set<String>win=driver.getWindowHandles();
 		Iterator<String>it=win.iterator(); 
 		String parentId=it.next();
+		String childId=it.next();
 		
