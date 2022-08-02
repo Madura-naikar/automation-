@@ -52,4 +52,5 @@ public class Mobile extends Generic {
                          data[1][0]="chandana@gamil.com";
 			data[1][1]="hassan";
 			data[2][0]="dhanu@gamil.com";
+			data[2][1]="putta";
 		
