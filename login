@@ -30,4 +30,5 @@ public class Mobile extends Generic {
 			driver.findElement(By.xpath("//textarea[@placeholder='Short Bio']")).sendKeys("Hello Madura N");//BIO
 			driver.findElement(By.xpath("//button[@type='submit']")).click();//Register
 			driver.switchTo().alert().accept();
+			driver.findElement(By.xpath("//button[.='Sign In']")).click();//Sign in
 		
