@@ -70,4 +70,6 @@ public class Mobile extends Generic {
 		driver.findElement(By.id("inputFirstName")).sendKeys("Madura");//First Name
 		driver.findElement(By.xpath("//label[.='First Name']/following-sibling::input[1]")).sendKeys("Naikar");//Last Name
 		driver.findElement(By.id("inputEmail")).sendKeys("maduranaikar86@gmail.com");//Email
+		driver.findElement(By.id("inputPassword")).sendKeys("madura@123");//password
+		driver.findElement(By.id("flexRadioDefault1")).click();//Male
 		
