@@ -31,7 +31,7 @@ public class Mobile extends Generic {
 			driver.findElement(By.xpath("//button[@type='submit']")).click();//Register
 			driver.switchTo().alert().accept();
 			driver.findElement(By.xpath("//button[.='Sign In']")).click();//sign in
-			driver.switchTo().alert().accept()
+			driver.switchTo().alert().accept();
 			
 			
 		
