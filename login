@@ -45,5 +45,7 @@ public class Mobile extends Generic {
 			
 			@DataProvider
 			 public Object[][] getdata()
+			 
+			 Object[][] data=new Object[5][2];
 			
 		
