@@ -48,5 +48,7 @@ public class Mobile extends Generic {
 			 
 			 Object[][] data=new Object[5][2];
 			 data[0][0]="madura@gamil.com";
+			 data[0][1]="naikar";
+
 			
 		
