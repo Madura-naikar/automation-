@@ -61,4 +61,7 @@ public class Mobile extends Generic {
 			   
 			   @Test(priority = 3)
 	public void Order()
+	driver.findElement(By.linkText("Order")).click();
+	Set<String>win=driver.getWindowHandles();
+		Iterator<String>it=win.iterator(); 
 		
