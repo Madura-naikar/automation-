@@ -91,4 +91,5 @@ public class Mobile extends Generic {
 		driver.findElement(By.xpath("//input[@placeholder='no of mobiles']")).sendKeys("1");
 		WebElement web2=driver.findElement(By.xpath("//select[@id='bought']"));
 		Select dropdown2=new Select(web2);
-
+dropdown2.selectByVisibleText("Yes");
+		driver.findElement(By.xpath("//input[@id='time']")).sendKeys("2");
