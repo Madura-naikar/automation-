@@ -48,6 +48,7 @@ public class Mobile extends Generic {
 			}
 			@DataProvider
 			 public Object[][] getdata()
+			 {
 			 
 			 Object[][] data=new Object[5][2];
 			 data[0][0]="madura@gamil.com";
@@ -62,8 +63,11 @@ public class Mobile extends Generic {
 			  data[4][1]="niece";
                            return data;	
 			   
+			   }
+			   
 			   @Test(priority = 3)
 	public void Order()
+	{
 	driver.findElement(By.linkText("Order")).click();
 	Set<String>win=driver.getWindowHandles();
 		Iterator<String>it=win.iterator(); 
@@ -101,6 +105,9 @@ dropdown2.selectByVisibleText("Yes");
 driver.findElement(By.xpath("(//input[@id='gridCheck1'])[2]")).click();
 		driver.findElement(By.xpath("//button[contains(.,'Ord')]")).click();//Registe
 		driver.findElement(By.xpath("//a[contains(.,'Clo')]")).click();
+		
+		
+	}
 	@Test(priority=4)
       public void contactus()
  driver.findElement(By.xpath("(//a[@role='button'])[2]")).click();
