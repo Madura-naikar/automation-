@@ -105,3 +105,5 @@ driver.findElement(By.xpath("(//input[@id='gridCheck1'])[2]")).click();
   driver.findElement(By.linkText("Contact Us")).click();
          Set<String> web=driver.getWindowHandles();
 	   Iterator<String> it=web.iterator();
+	     String child_id=it.next();
+        
