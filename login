@@ -93,3 +93,5 @@ public class Mobile extends Generic {
 		Select dropdown2=new Select(web2);
 dropdown2.selectByVisibleText("Yes");
 		driver.findElement(By.xpath("//input[@id='time']")).sendKeys("2");
+		//dropdown2.selectByVisibleText("No");
+		driver.findElement(By.xpath("(//input[@id='gridCheck1'])[1]")).click();
