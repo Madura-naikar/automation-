@@ -106,4 +106,5 @@ driver.findElement(By.xpath("(//input[@id='gridCheck1'])[2]")).click();
          Set<String> web=driver.getWindowHandles();
 	   Iterator<String> it=web.iterator();
 	     String child_id=it.next();
-        
+	      driver.switchTo().window(child_id);
+        driver.findElement(By.xpath("//input[@type='text']")).sendKeys("madura");
