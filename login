@@ -84,4 +84,7 @@ public class Mobile extends Generic {
 		driver.findElement(By.xpath("//label[.='Samsung']")).click();
 		driver.findElement(By.xpath("//label[.='Apple']")).click();
 		//driver.findElement(By.xpath("//label[.='Samsung']")).click();
+		//driver.findElement(By.xpath("//label[.='Lenovo']")).click();
+		WebElement web1=driver.findElement(By.xpath("//select[@class='multi_select']"));
+		Select dropdown1=new Select(web1);
 
