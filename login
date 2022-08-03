@@ -110,3 +110,4 @@ driver.findElement(By.xpath("(//input[@id='gridCheck1'])[2]")).click();
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("madura");
 	 driver.findElement(By.xpath("//input[@type='email']")).sendKeys("maduranaikar86@gmail.com");
 	    driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("8867342319");
+	       driver.findElement(By.xpath("//textarea[@name='message']")).sendKeys("Hello madura");
