@@ -82,4 +82,6 @@ public class Mobile extends Generic {
 		dropdown.selectByVisibleText("Karnataka");
 		driver.findElement(By.xpath("//input[@id='inputZip']")).sendKeys("560045560045");
 		driver.findElement(By.xpath("//label[.='Samsung']")).click();
+		driver.findElement(By.xpath("//label[.='Apple']")).click();
+		//driver.findElement(By.xpath("//label[.='Samsung']")).click();
 
