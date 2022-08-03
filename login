@@ -78,4 +78,8 @@ public class Mobile extends Generic {
 		driver.findElement(By.xpath("//input[@id='address2']")).sendKeys("Naagavara");
 		driver.findElement(By.xpath("//input[@id='inputCity']")).sendKeys("Bangalore");
 	    WebElement web=driver.findElement(By.xpath("//select[@id='inputState']"));
+	    Select dropdown=new Select(web);
+		dropdown.selectByVisibleText("Karnataka");
+		driver.findElement(By.xpath("//input[@id='inputZip']")).sendKeys("560045560045");
+		driver.findElement(By.xpath("//label[.='Samsung']")).click();
 
