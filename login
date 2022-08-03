@@ -33,6 +33,7 @@ public class Mobile extends Generic {
 			driver.findElement(By.xpath("//button[.='Sign In']")).click();//sign in
 			driver.switchTo().alert().accept();
 			driver.findElement(By.id("username")).sendKeys("maduranaikar86@gmail.com");
+			  String parent_id=it.next();
 			driver.findElement(By.id("password")).sendKeys("madura@123");
 			driver.findElement(By.xpath("//a[.='Log In']")).click();
 			
