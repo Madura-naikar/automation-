@@ -87,4 +87,6 @@ public class Mobile extends Generic {
 		//driver.findElement(By.xpath("//label[.='Lenovo']")).click();
 		WebElement web1=driver.findElement(By.xpath("//select[@class='multi_select']"));
 		Select dropdown1=new Select(web1);
+		driver.findElement(By.xpath("//option[@id='apple'][2]")).click();
+		driver.findElement(By.xpath("//input[@placeholder='no of mobiles']")).sendKeys("1");
 
