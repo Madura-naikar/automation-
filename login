@@ -76,4 +76,6 @@ public class Mobile extends Generic {
 		driver.findElement(By.xpath("//input[@placeholder='00000000000']")).sendKeys("8867342319");//MOB
 		driver.findElement(By.xpath("//input[@id=' address1']")).sendKeys("H2 block, Manyatha tech park");
 		driver.findElement(By.xpath("//input[@id='address2']")).sendKeys("Naagavara");
+		driver.findElement(By.xpath("//input[@id='inputCity']")).sendKeys("Bangalore");
+	    WebElement web=driver.findElement(By.xpath("//select[@id='inputState']"));
 
