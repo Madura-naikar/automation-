@@ -97,3 +97,6 @@ dropdown2.selectByVisibleText("Yes");
 		driver.findElement(By.xpath("(//input[@id='gridCheck1'])[1]")).click();
 driver.findElement(By.xpath("(//input[@id='gridCheck1'])[2]")).click();
 		driver.findElement(By.xpath("//button[contains(.,'Ord')]")).click();//Registe
+		driver.findElement(By.xpath("//a[contains(.,'Clo')]")).click();
+	@Test(priority=4)
+      public void contactus()
